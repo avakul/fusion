@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "baseName": "fusion",
+    "packageName": "com.fusion",
+    "packageFolder": "com/fusion",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "javaVersion": "7",
+    "rememberMeKey": "2d151750a14f3dfe4477e02805919cddbecf574c"
+  }
+}
