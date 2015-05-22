@@ -57,4 +57,11 @@ public class UserResourceTest {
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isNotFound());
     }
+
+    @Test
+    public void testGetInvailidUser() throws Exception {
+        restUserMockMvc.perform(get("api/users/avakul"))
+                .accept(MediaType.APPLICATION_JSON)
+                .andExpect(status.isNotFound())
+    }
 }
